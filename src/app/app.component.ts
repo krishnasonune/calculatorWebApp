@@ -45,9 +45,6 @@ export class AppComponent implements OnInit{
 
   ngOnInit(): void {
     this.tryial();
-    let k = "%%";
-    if (eval(k) == "unexpected token") {
-      console.log("good")
-    }
+   
   }
 }
